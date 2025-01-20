@@ -16,7 +16,6 @@
 }
 
 /* Navbar Styles */
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -61,6 +60,86 @@
     color: #ffffff;
     box-shadow: 0 2px 10px rgba(245, 0, 255, 0.5);
 }
+
+/* Menu Toggle Button */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    padding: 10px;
+}
+
+.menu-toggle .menu-icon {
+    width: 20px;
+    height: 2px;
+    background: white;
+    position: relative;
+    border-radius: 2px;
+}
+
+.menu-toggle .menu-icon::before,
+.menu-toggle .menu-icon::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle .menu-icon::before {
+    top: -6px;
+}
+
+.menu-toggle .menu-icon::after {
+    top: 6px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center; /* Center nav links */
+        gap: 15px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li a {
+        text-align: center;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .logo {
+        font-size: 20px;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+    }
+}
+
+/* --------------------------------------------------------------- */
 
 
 /* Home Section */
@@ -167,6 +246,87 @@
     }
 }
 
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .hero-content h1 {
+        font-size: 42px; /* Slightly smaller font for medium screens */
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .button-group {
+        gap: 15px; /* Adjust spacing for buttons */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        padding: 0 10px; /* Add padding for better readability */
+    }
+
+    .cta-button {
+        font-size: 14px;
+    }
+
+    .button-group {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        gap: 10px; /* Reduce spacing for vertical layout */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 28px; /* Smaller font for small screens */
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        line-height: 1.5; /* Adjust line height for readability */
+    }
+
+    .cta-button {
+        font-size: 12px;
+        padding: 10px 20px; /* Reduce padding for smaller buttons */
+    }
+
+    .button-group {
+        gap: 8px; /* Minimal spacing between buttons */
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 12px;
+        padding: 0 8px;
+    }
+
+    .cta-button {
+        font-size: 10px;
+        padding: 8px 15px;
+    }
+}
+
+/* --------------------------------------------------------------- */
 
 
 /* Projects Section */
@@ -324,6 +484,106 @@
         height: 250px;
     }
 }
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .project {
+        flex-direction: column; /* Stack content vertically */
+        padding: 30px; /* Reduce padding for smaller screens */
+        gap: 20px;
+    }
+
+    .project-content h2 {
+        font-size: 28px; /* Adjust heading size */
+    }
+
+    .project-content p {
+        font-size: 16px; /* Smaller font for better fit */
+    }
+
+    .project-content .cta-button {
+        font-size: 14px; /* Slightly smaller for buttons */
+        padding: 8px 20px; /* Adjust padding for better alignment */
+    }
+
+    .project-carousel {
+        max-width: 90%; /* Allow carousel to shrink */
+        height: 300px; /* Reduce height for medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        padding: 20px; /* Further reduce padding for mobile */
+        text-align: center; /* Center-align content */
+    }
+
+    .project.reverse {
+        flex-direction: column; /* Stack reverse layout vertically */
+    }
+
+    .project-content {
+        margin: 0; /* Remove extra margins for better centering */
+    }
+
+    .project-content h2 {
+        font-size: 24px;
+        margin-bottom: 15px; /* Adjust spacing */
+    }
+
+    .project-content p {
+        font-size: 14px; /* Smaller text for compactness */
+        line-height: 1.5; /* Adjust line spacing for readability */
+    }
+
+    .project-carousel {
+        max-width: 100%; /* Full width for mobile screens */
+        height: 250px; /* Compact height */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project-content h2 {
+        font-size: 20px; /* Shrink heading further for small screens */
+    }
+
+    .project-content p {
+        font-size: 12px; /* Smaller font for small screens */
+        margin-bottom: 20px;
+    }
+
+    .project-content .cta-button {
+        font-size: 12px; /* Compact button size */
+        padding: 6px 15px; /* Adjust button padding */
+    }
+
+    .project-carousel {
+        height: 200px; /* Further reduce height for small devices */
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .project-content h2 {
+        font-size: 18px; /* Shrink heading for very small screens */
+    }
+
+    .project-content p {
+        font-size: 10px; /* Adjust text size */
+        line-height: 1.4; /* Reduce line height for tighter spacing */
+    }
+
+    .project-content .cta-button {
+        font-size: 10px; /* Small button text */
+        padding: 5px 10px; /* Compact button padding */
+    }
+
+    .project-carousel {
+        height: 180px; /* Minimize carousel size */
+    }
+}
+
+
+/* --------------------------------------------------------------- */
 
 
 /* Skills Section */
@@ -552,75 +812,244 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Responsive Design */
+
+/* Medium Screens (1024px and below) */
+@media screen and (max-width: 1024px) {
+    .skills-section {
+        padding: 40px 10px; /* Reduce padding for medium screens */
+    }
+
+    .skills-container {
+        padding: 30px; /* Adjust inner container padding */
+    }
+
+    .section-title {
+        font-size: 30px; /* Slightly smaller for readability */
+        margin-bottom: 30px; /* Adjust spacing */
+    }
+
+    .skills-title {
+        font-size: 24px; /* Adjust skill title size */
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* More compact grid */
+        gap: 15px; /* Reduce gap between skill boxes */
+    }
+
+    .about-container {
+        padding: 60px 20px 20px; /* Adjust padding for about section */
+    }
+
+    .about-content {
+        padding: 15px; /* Compact padding for about content */
+    }
+
+    .profile-img {
+        width: 120px; /* Smaller profile image */
+        height: 120px;
+    }
+
+    .about-page h1 {
+        font-size: 30px; /* Reduce heading size */
+    }
+
+    .about-page h2 {
+        font-size: 20px; /* Reduce subheading size */
+    }
+
+    .about-page p {
+        font-size: 16px; /* Compact paragraph text */
+    }
+
+    .cta-button {
+        font-size: 14px; /* Adjust button font size */
+        padding: 8px 18px; /* Compact button padding */
+    }
+
+    .tagline-box h2 {
+        font-size: 24px; /* Adjust tagline size */
+    }
+}
+
+/* Small Screens (768px and below) */
+@media screen and (max-width: 768px) {
+    .skills-section {
+        padding: 30px 10px; /* Further reduce padding */
+    }
+
+    .skills-container {
+        border-radius: 15px; /* Adjust border radius for compactness */
+    }
+
+    .section-title {
+        font-size: 24px; /* Smaller section title */
+    }
+
+    .skills-title {
+        font-size: 20px; /* Adjust skill title */
+        margin-bottom: 15px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr; /* Single-column layout for skills */
+        gap: 10px; /* Compact gap */
+    }
+
+    .skill-box {
+        font-size: 14px; /* Smaller skill box text */
+        padding: 15px; /* Compact padding */
+    }
+
+    .about-container {
+        padding: 40px 15px 15px; /* Reduce about section padding */
+    }
+
+    .about-content {
+        border-radius: 10px; /* Compact border radius */
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px; /* Smaller profile image */
+    }
+
+    .about-page h1 {
+        font-size: 24px; /* Compact heading size */
+    }
+
+    .about-page h2 {
+        font-size: 18px; /* Compact subheading size */
+    }
+
+    .about-page p {
+        font-size: 14px; /* Smaller paragraph text */
+    }
+
+    .cta-button {
+        font-size: 12px; /* Adjust button size */
+        padding: 6px 15px;
+    }
+
+    .tagline-box h2 {
+        font-size: 20px;
+    }
+}
+
+/* Extra Small Screens (480px and below) */
+@media screen and (max-width: 480px) {
+    .skills-section {
+        padding: 20px 5px; /* Minimal padding for small screens */
+    }
+
+    .section-title {
+        font-size: 20px; /* Compact section title */
+    }
+
+    .skills-title {
+        font-size: 18px; /* Adjust skill title */
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr; /* Single-column layout */
+        gap: 8px; /* Minimal gap */
+    }
+
+    .skill-box {
+        font-size: 12px; /* Compact text size */
+        padding: 10px;
+    }
+
+    .about-container {
+        padding: 20px 10px; /* Compact about section padding */
+    }
+
+    .profile-img {
+        width: 80px; /* Smaller profile image */
+        height: 80px;
+    }
+
+    .about-page h1 {
+        font-size: 20px;
+    }
+
+    .about-page h2 {
+        font-size: 16px;
+    }
+
+    .about-page p {
+        font-size: 12px;
+    }
+
+    .cta-button {
+        font-size: 10px; /* Compact button size */
+        padding: 5px 12px;
+    }
+
+    .tagline-box h2 {
+        font-size: 16px;
+    }
+}
+
+/* Very Small Screens (360px and below) */
+@media screen and (max-width: 360px) {
+    .skills-section {
+        padding: 15px 5px;
+    }
+
+    .section-title {
+        font-size: 18px;
+    }
+
+    .skills-title {
+        font-size: 16px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .skill-box {
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    .about-container {
+        padding: 10px 5px;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .about-page h1 {
+        font-size: 18px;
+    }
+
+    .about-page h2 {
+        font-size: 14px;
+    }
+
+    .about-page p {
+        font-size: 10px;
+    }
+
+    .cta-button {
+        font-size: 8px;
+        padding: 4px 10px;
+    }
+
+    .tagline-box h2 {
+        font-size: 14px;
+    }
+}
+
+
+
+/* --------------------------------------------------------------- */
 
 
 .contact-section {
@@ -709,3 +1138,134 @@ footer a {
     color: #f500ff;
     text-decoration: none;
 }
+
+/* Responsive Design */
+
+/* Medium Screens (1024px and below) */
+@media screen and (max-width: 1024px) {
+    .contact-section {
+        padding: 30px; /* Reduce padding for medium screens */
+    }
+
+    .contact-title {
+        font-size: 36px; /* Adjust font size for titles */
+        margin-bottom: 15px; /* Reduce spacing for compactness */
+    }
+
+    .contact-description {
+        font-size: 18px; /* Slightly smaller for readability */
+        margin-bottom: 30px; /* Adjust spacing */
+    }
+
+    .contact-info {
+        gap: 15px; /* Reduce gap between contact items */
+    }
+
+    .contact-item {
+        max-width: 400px; /* Adjust width for medium screens */
+        padding: 15px; /* Compact padding */
+    }
+
+    footer {
+        font-size: 12px; /* Reduce footer font size */
+    }
+}
+
+/* Small Screens (768px and below) */
+@media screen and (max-width: 768px) {
+    .contact-section {
+        padding: 20px; /* Further reduce padding for smaller screens */
+    }
+
+    .contact-title {
+        font-size: 30px; /* Reduce title size for small screens */
+    }
+
+    .contact-description {
+        font-size: 16px; /* Adjust text size */
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        gap: 10px; /* Compact spacing between items */
+    }
+
+    .contact-item {
+        max-width: 100%; /* Full width for small screens */
+        padding: 10px;
+    }
+
+    .contact-item a {
+        font-size: 16px; /* Adjust font size for links */
+    }
+
+    footer {
+        font-size: 11px; /* Smaller footer text */
+    }
+}
+
+/* Extra Small Screens (480px and below) */
+@media screen and (max-width: 480px) {
+    .contact-section {
+        padding: 15px;
+    }
+
+    .contact-title {
+        font-size: 24px; /* Compact title size */
+    }
+
+    .contact-description {
+        font-size: 14px; /* Smaller description text */
+        line-height: 1.6; /* Adjust line spacing */
+    }
+
+    .contact-info {
+        gap: 8px; /* Minimal gap between items */
+    }
+
+    .contact-item {
+        padding: 8px; /* Minimal padding for compact layout */
+    }
+
+    .contact-item a {
+        font-size: 14px; /* Adjust link font size */
+    }
+
+    footer {
+        font-size: 10px; /* Smallest footer font size */
+    }
+}
+
+/* Very Small Screens (360px and below) */
+@media screen and (max-width: 360px) {
+    .contact-section {
+        padding: 10px;
+    }
+
+    .contact-title {
+        font-size: 20px; /* Smaller title size */
+    }
+
+    .contact-description {
+        font-size: 12px; /* Reduce description text size */
+        margin-bottom: 15px;
+    }
+
+    .contact-info {
+        gap: 5px; /* Minimal gap */
+    }
+
+    .contact-item {
+        padding: 6px;
+        font-size: 12px; /* Adjust text size inside items */
+    }
+
+    .contact-item a {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 9px; /* Minimal footer font size */
+    }
+}
+

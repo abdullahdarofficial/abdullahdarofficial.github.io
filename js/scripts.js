@@ -1,21 +1,80 @@
+// Wait for the DOM to load before executing the script
 document.addEventListener("DOMContentLoaded", () => {
-    const carousels = document.querySelectorAll(".carousel"); // Select all carousels
-    const fullscreen = document.createElement("div");
-    fullscreen.className = "fullscreen";
-    document.body.appendChild(fullscreen);
-
-    // Get all navigation links
+    /* ------------------------------------------
+       Navbar Functionality
+    ------------------------------------------ */
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navMenu = document.querySelector(".nav-links");
     const navLinks = document.querySelectorAll(".nav-links li a");
 
-    // Get the current URL path
-    const currentPath = window.location.pathname;
+    // Function to adjust the menu visibility based on screen size
+    const adjustMenu = () => {
+        const screenWidth = window.innerWidth;
 
-    // Highlight the active link
+        if (screenWidth > 768) {
+            // Large screen: Show nav menu and hide menu button
+            navMenu.classList.remove("show");
+            navMenu.style.display = "flex";
+            menuToggle.style.display = "none";
+        } else {
+            // Small screen: Hide nav menu and show menu button
+            navMenu.classList.remove("show");
+            navMenu.style.display = "none";
+            menuToggle.style.display = "block";
+        }
+    };
+
+    // Initialize menu visibility on page load
+    adjustMenu();
+
+    // Adjust menu on window resize
+    window.addEventListener("resize", adjustMenu);
+
+    // Toggle menu visibility on button click
+    menuToggle.addEventListener("click", (event) => {
+        navMenu.classList.toggle("show");
+        navMenu.style.display = navMenu.classList.contains("show") ? "flex" : "none";
+        event.stopPropagation(); // Prevent click from propagating
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener("click", () => {
+        if (window.innerWidth <= 768) {
+            navMenu.classList.remove("show");
+            navMenu.style.display = "none";
+        }
+    });
+
+    // Prevent menu close when clicking inside the menu
+    navMenu.addEventListener("click", (event) => {
+        event.stopPropagation();
+    });
+
+    // Close menu when navigating to a new page
+    navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+            if (window.innerWidth <= 768) {
+                navMenu.classList.remove("show");
+                navMenu.style.display = "none";
+            }
+        });
+    });
+
+    // Highlight the active navigation link based on the current URL
+    const currentPath = window.location.pathname;
     navLinks.forEach((link) => {
         if (link.getAttribute("href") === currentPath) {
             link.classList.add("active");
         }
     });
+
+    /* ------------------------------------------
+       Carousel Functionality
+    ------------------------------------------ */
+    const carousels = document.querySelectorAll(".carousel");
+    const fullscreen = document.createElement("div");
+    fullscreen.className = "fullscreen";
+    document.body.appendChild(fullscreen);
 
     carousels.forEach((carousel) => {
         const items = carousel.querySelectorAll(".carousel-item");
@@ -57,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
         carousel.addEventListener("mouseenter", pauseCarousel);
         carousel.addEventListener("mouseleave", startCarousel);
 
-        // Fullscreen functionality
+        // Fullscreen functionality for carousel items
         const openFullscreen = (src, isVideo) => {
             fullscreen.innerHTML = isVideo
                 ? `<video src="${src}" controls autoplay></video>`
@@ -66,6 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
             pauseCarousel();
         };
 
+        // Close fullscreen on click
         fullscreen.addEventListener("click", () => {
             fullscreen.style.display = "none";
             startCarousel();
@@ -92,5 +152,3 @@ document.addEventListener("DOMContentLoaded", () => {
         startCarousel();
     });
 });
-
-
