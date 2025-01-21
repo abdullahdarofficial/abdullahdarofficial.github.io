@@ -141,7 +141,6 @@
 
 /* --------------------------------------------------------------- */
 
-
 /* Home Section */
 .home-section {
     background-image: url('../images/home/background.jpg');
@@ -328,7 +327,6 @@
 
 /* --------------------------------------------------------------- */
 
-
 /* Projects Section */
 .projects-section {
     padding: 80px 20px;
@@ -371,7 +369,6 @@
     font-weight: 400; /* Standard weight for clean appearance */
 }
 
-
 .project-content .cta-button {
     padding: 10px 25px;
     background-color: #f500ff;
@@ -396,6 +393,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 /* Carousel Container */
 .project-carousel {
     flex: 1;
@@ -582,9 +580,7 @@
     }
 }
 
-
 /* --------------------------------------------------------------- */
-
 
 /* Skills Section */
 .skills-section {
@@ -668,6 +664,10 @@
     color: #fff;
     font-weight: 400;
 }
+
+
+/* --------------------------------------------------------------- */
+
 
 /* About Section */
 .about-container {
@@ -811,9 +811,7 @@
     }
 }
 
-
 /* Responsive Design */
-
 /* Medium Screens (1024px and below) */
 @media screen and (max-width: 1024px) {
     .skills-section {
@@ -1047,10 +1045,20 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .about-container {
+        padding-top: 80px; /* Adjust the padding to move content lower */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-container {
+        padding-top: 100px; /* Additional padding for smaller screens */
+    }
+}
 
 
 /* --------------------------------------------------------------- */
-
 
 .contact-section {
     background-image: url('../images/contact/background.jpg');
@@ -1140,7 +1148,6 @@ footer a {
 }
 
 /* Responsive Design */
-
 /* Medium Screens (1024px and below) */
 @media screen and (max-width: 1024px) {
     .contact-section {
@@ -1266,6 +1273,17 @@ footer a {
 
     footer {
         font-size: 9px; /* Minimal footer font size */
+    }
+}
+
+
+.skills-section {
+    padding-top: 80px; /* Default padding for larger screens */
+}
+
+@media (max-width: 768px) {
+    .skills-section {
+        padding-top: 90px; /* Increase padding for smaller screens */
     }
 }
 
