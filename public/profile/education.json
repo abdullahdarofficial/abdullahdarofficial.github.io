@@ -1,0 +1,19 @@
+{
+    "education":[
+        {
+            "title": "Jun 2021 - Jun 2025",
+            "cardTitle": "B.Sc, Computer Science",
+            "cardSubtitle":"FAST NUCES, Lahore",
+            "cardDetailedText": "CGPA - 3.5/4.0",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Apr 2021",
+            "cardTitle": "High School",
+            "cardSubtitle":"Pre-Engg PGC, Lahore",
+            "cardDetailedText": "Marks - 96%"
+        }
+    ]
+}

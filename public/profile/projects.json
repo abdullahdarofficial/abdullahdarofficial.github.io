@@ -1,0 +1,301 @@
+{
+    "projects" : [
+
+        {
+            "_comment": "This is Project no: 14",
+            "video": "images/projects/project_14/demo.mp4",
+            "title": "HealthInsight AI",
+            "bodyText": "- **Problem:** Accurate disease prediction and health outcome analysis are critical for effective healthcare delivery. Diverse medical datasets, imbalanced classes, and complex health patterns make high prediction accuracy challenging.\n- **Solution:** Utilizes advanced ML algorithms like XGBoost and LightGBM for precise disease classification. Incorporates hyperparameter tuning and SHAP for model interpretation.\n- **Outcome:** Achieved high accuracy in disease classification, improved model interpretability, and provided actionable insights for healthcare professionals.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/HealthInsightAI"
+                }
+            ],
+            "tags": ["Python", "Scikit-learn", "XGBoost", "LightGBM", "SHAP", "Pandas", "Matplotlib", "Seaborn"],
+            "images": [
+                "images/projects/project_14/img1.png",
+                "images/projects/project_14/img2.png",
+                "images/projects/project_14/img3.png",
+                "images/projects/project_14/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 13",
+            "video": "images/projects/project_13/demo.mp4",
+            "title": "EnergyInsight AI",
+            "bodyText": "- **Problem:** Analyzing electricity access, CO₂ emissions, and renewable energy trends is complex due to missing values and varying policies.\n- **Solution:** Leverages ML models like Random Forest, XGBoost, and LSTM for energy trend analysis and forecasting.\n- **Outcome:** Achieved 99% accuracy in electricity access prediction, developed a CO₂ emission forecasting model, and categorized nations based on energy dependence.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/EnergyInsightAI"
+                }
+            ],
+            "tags": ["Python", "Scikit-learn", "XGBoost", "Random Forest", "Pandas", "Matplotlib", "Seaborn"],
+            "images": [
+                "images/projects/project_13/img1.png",
+                "images/projects/project_13/img2.png",
+                "images/projects/project_13/img3.png",
+                "images/projects/project_13/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 12",
+            "video": "images/projects/project_12/demo.mp4",
+            "title": "TaxiScope",
+            "bodyText": "- **Problem:** Predicting NYC taxi demand is challenging due to large datasets, varying demand patterns, and complex fare structures.\n- **Solution:** Uses Apache Spark to analyze taxi trip data, identify peak demand hours, and predict fares.\n- **Outcome:** Identified high-demand zones, busiest hours, and developed ML models for fare prediction and clustering for demand hotspots.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/TaxiScope"
+                }
+            ],
+            "tags": ["Python", "PySpark", "Apache Spark", "Matplotlib", "Seaborn", "Spark MLlib"],
+            "images": [
+                "images/projects/project_12/img1.png",
+                "images/projects/project_12/img2.png",
+                "images/projects/project_12/img3.png",
+                "images/projects/project_12/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 11",
+            "video": "images/projects/project_11/demo.mp4",
+            "title": "ClimaSense",
+            "bodyText": "- **Problem:** Predicting weather trends in Lahore is crucial for industries but remains a challenge due to complex weather patterns.\n- **Solution:** Uses LSTM neural networks to analyze historical weather data and provide precise temperature forecasts.\n- **Outcome:** Achieved R² score of 96.46%, MAE of 1.99%, and RMSE of 0.030, demonstrating high prediction accuracy for Lahore's weather.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/ClimaSense"
+                }
+            ],
+            "tags": ["Python", "TensorFlow", "Keras", "Pandas", "Matplotlib", "Seaborn"],
+            "images": [
+                "images/projects/project_11/img1.png",
+                "images/projects/project_11/img2.png",
+                "images/projects/project_11/img3.png",
+                "images/projects/project_11/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 10",
+            "video": "images/projects/project_10/demo.mp4",
+            "title": "AmazonRecoFusion",
+            "bodyText": "- **Problem:** Providing accurate product recommendations in e-commerce platforms like Amazon is challenging due to diverse customer preferences.\n- **Solution:** Combines collaborative filtering and content-based filtering for personalized recommendations, improving accuracy and diversity.\n- **Outcome:** Developed a hybrid recommendation system incorporating both user-item interactions and product features for enhanced relevance.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/AmazonRecoFusion"
+                }
+            ],
+            "tags": ["Python", "Pandas", "scikit-learn", "NLTK", "Matplotlib", "Seaborn"],
+            "images": [
+                "images/projects/project_10/img1.png",
+                "images/projects/project_10/img2.png",
+                "images/projects/project_10/img3.png",
+                "images/projects/project_10/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 9",
+            "video": "images/projects/project_9/demo.mp4",
+            "title": "TweetSentiment",
+            "bodyText": "- **Problem:** Understanding public sentiment on Twitter is crucial but difficult due to large unstructured data.\n- **Solution:** Uses ML to classify tweets into sentiment categories using TF-IDF, Random Forest, Logistic Regression, and BERT.\n- **Outcome:** Achieved 96% accuracy in sentiment analysis, providing insights into audience trends.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/TweetSentiment"
+                }
+            ],
+            "tags": ["Python", "scikit-learn", "NLTK", "Matplotlib", "Seaborn", "Transformers"],
+            "images": [
+                "images/projects/project_9/img1.png",
+                "images/projects/project_9/img2.png",
+                "images/projects/project_9/img3.png",
+                "images/projects/project_9/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 8",
+            "video": "images/projects/project_8/demo.mp4",
+            "title": "Default Risk Modeling and Analysis",
+            "bodyText": "- **Problem:** Predicting financial defaults is critical for risk management but complex.\n- **Solution:** Uses ML models like Logistic Regression, Decision Trees, and Random Forests to analyze employment, salary, and bank balance for predictions.\n- **Outcome:** Improved accuracy in identifying high-risk customers, aiding financial decision-making.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/AI-Powered-Loan-Default-Detector"
+                }
+            ],
+            "tags": ["Python", "scikit-learn", "pandas", "Matplotlib"],
+            "images": [
+                "images/projects/project_8/img1.png",
+                "images/projects/project_8/img2.png",
+                "images/projects/project_8/img3.png",
+                "images/projects/project_8/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 7",
+            "video": "images/projects/project_7/demo.mp4",
+            "title": "ProConnect360: Multi-threaded Faculty Profile Scraper",
+            "bodyText": "- **Problem:** Gathering faculty profiles from universities and job platforms is time-consuming.\n- **Solution:** Uses web scraping with multi-threading and dynamic page handling to extract detailed profiles efficiently.\n- **Outcome:** Automated profile collection for structured data storage, aiding research and networking.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/ProConnect360"
+                }
+            ],
+            "tags": ["Python", "Selenium", "ThreadPoolExecutor", "Pandas"],
+            "images": [
+                "images/projects/project_7/img1.png",
+                "images/projects/project_7/img2.png",
+                "images/projects/project_7/img3.png",
+                "images/projects/project_7/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no: 6",
+            "video": "images/projects/project_6/demo.mp4",
+            "title": "EcomPredictor: AI-Driven E-commerce Sales Forecasting",
+            "bodyText": "- **Problem:** E-commerce businesses struggle with forecasting sales accurately.\n- **Solution:** Utilizes ML techniques like PCA, ensemble models, and feature engineering to predict sales trends and customer behavior.\n- **Outcome:** Improved revenue forecasting accuracy by 30%, optimizing inventory management.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-ML-Projects/tree/EcomPredictor-Unleashing-AI-to-Predict-E-commerce-Sales-and-Customer-Insights"
+                }
+            ],
+            "tags": ["Python", "PCA", "Random Forest", "Gradient Boosting", "XGBoost", "RAPIDS cuML"],
+            "images": [
+                "images/projects/project_6/img1.png",
+                "images/projects/project_6/img2.png",
+                "images/projects/project_6/img3.png",
+                "images/projects/project_6/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no : 1",
+            "video": "images/projects/project_1/demo.mp4",
+            "title": "FASTInfoBot: AI-Powered Campus Assistant",
+            "bodyText": "- **Problem:** Limited access to real-time, accurate university information.\n- **Solution:** A chatbot built on Botpress, integrating AI-driven conversations and web scraping for real-time and comprehensive information delivery.\n- **Outcome:** Improved access to university information for over 5,000 students and staff.",
+            "links": [
+                {
+                    "text": "Experience FASTInfoBot Live",
+                    "href": "https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/12/13/20/20241213203042-1664PU6B.json"
+                }
+            ],
+            "tags": [
+                "Botpress",
+                "AI",
+                "Web Scraping",
+                "Python"
+            ],
+            "images": [
+                "images/projects/project_1/img1.png",
+                "images/projects/project_1/img2.png",
+                "images/projects/project_1/img3.png",
+                "images/projects/project_1/img4.png"
+            ]
+        },
+
+
+        {
+            "_comment": "This is Project no : 2",
+            "video": "images/projects/project_2/demo.mp4",
+            "title": "Intelligent Travel Recommendation System",
+            "bodyText": "- **Problem:** Generic travel recommendations fail to meet user preferences.\n- **Solution:** A recommendation engine leveraging content-based, collaborative, and popularity-based filtering to suggest personalized travel plans.\n- **Outcome:** Enhanced trip satisfaction for users, improving planning efficiency by 40%.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-Travel-Recommender"
+                }
+            ],
+            "tags": [
+                "Python",
+                "Machine Learning",
+                "Collaborative Filtering",
+                "Recommendation Engine"
+            ],
+            "images": [
+                "images/projects/project_2/img1.png",
+                "images/projects/project_2/img2.png",
+                "images/projects/project_2/img3.png",
+                "images/projects/project_2/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no : 3",
+            "video": "images/projects/project_3/demo.mp4",
+            "title": "AI-Powered Handwriting Recognition Model",
+            "bodyText": "- **Problem:** Digitizing handwritten text accurately is challenging.\n- **Solution:** A CNN-based model trained on MNIST-like datasets to classify handwritten digits with high accuracy.\n- **Outcome:** Achieved 98% accuracy, streamlining OCR workflows.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/Hand_Writing-Digit-Classification-Model"
+                }
+            ],
+            "tags": [
+                "TensorFlow",
+                "OpenCV",
+                "Python",
+                "CNN",
+                "OCR"
+            ],
+            "images": [
+                "images/projects/project_3/img1.png",
+                "images/projects/project_3/img2.png",
+                "images/projects/project_3/img3.png",
+                "images/projects/project_3/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no : 4",
+            "video": "images/projects/project_4/demo.mp4",
+            "title": "Real-Time Vehicle Detection with CarCheck Vision",
+            "bodyText": "- **Problem:** Manual monitoring of parking spaces and surveillance areas is inefficient.\n- **Solution:** An AI-powered solution using YOLOv4 for real-time vehicle detection.\n- **Outcome:** Revolutionized parking management systems, enabling scalable smart city applications.",
+            "links": [
+                {
+                    "text": "Explore CarCheck Vision",
+                    "href": "https://www.linkedin.com/posts/abdullahdarofficial_ai-machinelearning-computervision-activity-7277296547619364865-ya4G?utm_source=share&utm_medium=member_desktop"
+                }
+            ],
+            "tags": [
+                "YOLOv4",
+                "Python",
+                "Computer Vision",
+                "AI",
+                "Smart City"
+            ],
+            "images": [
+                "images/projects/project_4/img1.png",
+                "images/projects/project_4/img2.png",
+                "images/projects/project_4/img3.png",
+                "images/projects/project_4/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no : 5",
+            "video": "images/projects/project_5/demo.mp4",
+            "title": "AI-Enhanced User Matching Platform",
+            "bodyText": "- **Problem:** Finding compatible matches in traditional systems is time-consuming.\n- **Solution:** A platform leveraging AI-driven matchmaking algorithms to predict compatibility based on user preferences and behavior.\n- **Outcome:** Increased user engagement by 25%, reducing search time by 60%.",
+            "links": [
+                {
+                    "text": "Explore SimpleRishta",
+                    "href": "https://simplerishta.com/"
+                }
+            ],
+            "tags": [
+                "Spring Boot",
+                "Python",
+                "Random Forest",
+                "PostgreSQL",
+                "AI Matchmaking"
+            ],
+            "images": [
+                "images/projects/project_5/img1.png",
+                "images/projects/project_5/img2.png",
+                "images/projects/project_5/img3.png",
+                "images/projects/project_5/img4.png"
+            ]
+        }
+    ]
+}

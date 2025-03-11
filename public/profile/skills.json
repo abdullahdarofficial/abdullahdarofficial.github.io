@@ -1,0 +1,119 @@
+{
+    "intro": "I am passionate about continuous learning and exploring innovative technologies. Below is an overview of the key programming languages, technologies, tools, and platforms I have experience working with.",
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/c++.png",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/dart.png",
+                    "title": "Dart"
+                },
+                {
+                    "icon": "images/skills/sql.png",
+                    "title": "SQL"
+                },
+
+                {
+                    "icon": "images/skills/r.png",
+                    "title": "R"
+                }
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/tensorflow.png",
+                    "title": "Tensor Flow"
+                },
+                {
+                    "icon": "images/skills/pytorch.png",
+                    "title": "Py Torch"
+                },
+                {
+                    "icon": "images/skills/keras.png",
+                    "title": "Keras"
+                },
+                {
+                    "icon": "images/skills/numpy.png",
+                    "title": "NumPy"
+                },
+                {
+                    "icon": "images/skills/opencv.png",
+                    "title": "OpenCV"
+                },
+                {
+                    "icon": "images/skills/pandas.png",
+                    "title": "Pandas"
+                },
+                {
+                    "icon": "images/skills/django.png",
+                    "title": "Django"
+                },
+                {
+                    "icon": "images/skills/scikitlearn.png",
+                    "title": "Scikit Learn"
+                },
+                {
+                    "icon": "images/skills/nltk.png",
+                    "title": "NLTK"
+                },
+                {
+                    "icon": "images/skills/flutter.png",
+                    "title": "Flutter"
+                },
+                {
+                    "icon": "images/skills/springboot.png",
+                    "title": "Spring Boot"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/android-studio.png",
+                    "title": "Android Studio"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/intellijidea.png",
+                    "title": "Intellij Idea"
+                },
+                {
+                    "icon": "images/skills/jupyternotebook.png",
+                    "title": "Jupyter Notebook"
+                },
+                {
+                    "icon": "images/skills/colab.png",
+                    "title": "Colab"
+                },
+                {
+                    "icon": "images/skills/aws.png",
+                    "title": "AWS"
+                },
+                {
+                    "icon": "images/skills/apachespark.png",
+                    "title": "Apache Spark"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                }
+            ]
+    }
+]}
