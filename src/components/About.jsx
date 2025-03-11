@@ -39,7 +39,10 @@ function About({ header }) {
     })
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        // eslint-disable-next-line no-console
+        console.error(err);
+      });
   }, []);
 
   return (
