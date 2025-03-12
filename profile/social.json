@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/abdullahdarofficial/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/abdullahdarofficial"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:abdullah.dar.official@outlook.com"
+        }
+    ]
+}

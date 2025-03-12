@@ -1,0 +1,47 @@
+{
+    "experiences": [
+        {
+            "title": "AI/Ml Engineer",
+            "subtitle": "SimpleRishta",
+            "workType": "Employment",
+            "workDescription": [
+                "Enhanced user matching accuracy by 30% through the development of a Recommendation System that utilized a decade’s worth of attribute-rich data, resulting in a 60% reduction in search time and a 25% increase in the user base, employing Spring Boot, Python, Random Forest, PostgreSQL, and scikit-learn.",
+                "Achieved a 40% increase in data validation accuracy by implementing a micro-service that validates user data and images against ID cards, as measured by a 25% reduction in fraudulent profiles and a 70% decrease in inappropriate content incidents using Python, face recognition technologies, transformers, and Django."
+            ],
+            "dateText": "06/2024 – 10/2024"
+        },
+        {
+            "title": "Project Developer",
+            "subtitle": "AQUSys Intelligence",
+            "workType": "Project",
+            "workDescription": [
+                "Attained a 30% increase in efficiency through the development of an AI-driven platform that automates interviews with real-time question generation and adaptive evaluation using Llama 3.0 and RAG, leading to improved response accuracy.",
+                "Acquired a 40% reduction in processing time for candidate assessments, enhancing them with Transformers and Pandas to provide instant feedback and scoring for holistic evaluations.",
+                "Boosted candidate engagement by 25% through the design of customizable interview flows that feature context-aware questions, utilizing speech and facial expression analysis with SpeechRecognition and OpenCV."
+            ],
+            "dateText": "08/2024 - Present"
+        },
+        {
+            "title": "Software Engineer",
+            "subtitle": "AI Travel Recommender",
+            "workType": "Project",
+            "workDescription": [
+                "Developed a personalized travel planning system that achieves a response time of 100ms through the integration of hybrid recommendation techniques, including popularity-based, content-based, and collaborative filtering methods.",
+                "Designed an intuitive GUI with customkinder for seamless navigation, visualizing recommendations using tkintermapview, and adapting suggestions based on individual user preferences.",
+                "Recognized as one of the Top 3 Projects of the semester for achieving the lowest latency and exceptional design."
+            ],
+            "dateText": "04/2024 - 05/2024"
+        },
+        {
+            "title": "Project Developer",
+            "subtitle": "Speedy Drop",
+            "workType": "Project",
+            "workDescription": [
+                "Engineered a cross-platform app facilitating 30-minute deliveries within a 10km radius, leveraging Flutter and Firebase to connect local vendors with consumers.",
+                "Crafted an intuitive interface featuring secure authentication, real-time order tracking, and streamlined purchasing, incorporating Flutter Maps for optimized route management.",
+                "Devised a rider-based delivery model with a flexible pricing strategy to encourage prompt deliveries, reducing operational overhead for sellers."
+            ],
+            "dateText": "01/2024 - 02/2024"
+        }
+    ]
+}
