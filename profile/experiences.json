@@ -11,13 +11,15 @@
             "dateText": "06/2024 – 10/2024"
         },
         {
-            "title": "Project Developer",
+            "title": "SaaS Architect",
             "subtitle": "AQUSys Intelligence",
             "workType": "Project",
             "workDescription": [
-                "Attained a 30% increase in efficiency through the development of an AI-driven platform that automates interviews with real-time question generation and adaptive evaluation using Llama 3.0 and RAG, leading to improved response accuracy.",
-                "Acquired a 40% reduction in processing time for candidate assessments, enhancing them with Transformers and Pandas to provide instant feedback and scoring for holistic evaluations.",
-                "Boosted candidate engagement by 25% through the design of customizable interview flows that feature context-aware questions, utilizing speech and facial expression analysis with SpeechRecognition and OpenCV."
+                "Architected a scalable AI-powered SaaS platform that automates interviews through real-time voice interactions, dynamic question generation using LangChain and LLaMA 3.0, and candidate evaluation pipelines via Whisper transcription and AI scoring.",
+                "Attained a 30% increase in efficiency by developing real-time dynamic question generation and adaptive evaluation strategies using RAG and Transformer models, leading to improved candidate response accuracy.",
+                "Optimized system performance and reduced candidate processing time by 40% through asynchronous WebSocket communication, FastAPI microservices, and multi-threaded evaluation modules.",
+                "Boosted candidate engagement by 25% through customizable interview flows, utilizing context-aware questioning along with speech and facial expression analysis using SpeechRecognition and OpenCV.",
+                "Enhanced overall interview-to-hire efficiency by 30%, enabling scalable and unbiased hiring workflows for organizations."
             ],
             "dateText": "08/2024 - Present"
         },
