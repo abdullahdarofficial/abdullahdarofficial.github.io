@@ -1,6 +1,24 @@
 {
     "projects" : [
-
+        {
+            "_comment": "This is Project no: 15",
+            "video": "images/projects/project_15/demo.mp4",
+            "title": "AQUSys Intelligence",
+            "bodyText": "- **Problem:** Traditional hiring processes are often time-consuming, biased, and inefficient, making it difficult for companies to screen large volumes of candidates effectively.\n- **Solution:** AQUSys Intelligence automates candidate interviews using AI, real-time voice and video interaction, dynamic question generation, and objective evaluation.\n- **Outcome:** Streamlined the recruitment process, reduced human bias, improved candidate evaluation consistency, and enabled scalable hiring for organizations.",
+            "links": [
+                {
+                    "text": "Explore AQUSys Intelligence",
+                    "href": "https://abdullahdar.com"
+                }
+            ],
+            "tags": ["Python", "FastAPI", "React", "WebSockets", "Whisper", "Groq", "LangChain", "Llama", "AI Interview"],
+            "images": [
+                "images/projects/project_15/img1.png",
+                "images/projects/project_15/img2.png",
+                "images/projects/project_15/img3.png",
+                "images/projects/project_15/img4.png"
+            ]
+        },
         {
             "_comment": "This is Project no: 14",
             "video": "images/projects/project_14/demo.mp4",
