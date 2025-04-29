@@ -24,7 +24,7 @@
             "_comment": "This is Project no : 1",
             "video": "images/projects/project_1/demo.mp4",
             "title": "FASTInfoBot: AI-Powered Campus Assistant",
-            "bodyText": "- **Problem:** Limited access to real-time, accurate university information.\n- **Solution:** A chatbot built on Botpress, integrating AI-driven conversations and web scraping for real-time and comprehensive information delivery.\n- **Outcome:** Improved access to university information for over 5,000 students and staff.",
+            "bodyText": "- **Problem:** Students and staff often struggle to access accurate, real-time university information, causing delays and confusion.\n- **Solution:** FASTInfoBot, built using Botpress, combines AI-driven conversations and web scraping to provide instant, reliable information on demand.\n- **Outcome:** Enhanced access to critical university resources for over 5,000 students and staff, improving campus communication.",
             "links": [
                 {
                     "text": "Experience FASTInfoBot Live",
@@ -35,7 +35,11 @@
                 "Botpress",
                 "AI",
                 "Web Scraping",
-                "Python"
+                "Python",
+                "Chatbot Development",
+                "Real-Time Information",
+                "Campus Solutions",
+                "Automation"
             ],
             "images": [
                 "images/projects/project_1/img1.png",
@@ -49,7 +53,7 @@
             "_comment": "This is Project no : 2",
             "video": "images/projects/project_2/demo.mp4",
             "title": "Intelligent Travel Recommendation System",
-            "bodyText": "- **Problem:** Generic travel recommendations fail to meet user preferences.\n- **Solution:** A recommendation engine leveraging content-based, collaborative, and popularity-based filtering to suggest personalized travel plans.\n- **Outcome:** Enhanced trip satisfaction for users, improving planning efficiency by 40%.",
+            "bodyText": "- **Problem:** Generic travel recommendations often fail to match individual user preferences, resulting in less satisfying travel experiences.\n- **Solution:** A smart recommendation engine utilizing content-based filtering, collaborative filtering, and popularity-based filtering to deliver highly personalized and relevant travel plans.\n- **Outcome:** Boosted trip satisfaction and improved travel planning efficiency by 40% for users.",
             "links": [
                 {
                     "text": "GitHub",
@@ -60,7 +64,12 @@
                 "Python",
                 "Machine Learning",
                 "Collaborative Filtering",
-                "Recommendation Engine"
+                "Recommendation Engine",
+                "Content-Based Filtering",
+                "Travel Technology",
+                "Personalization",
+                "AI Solutions",
+                "Data Science"
             ],
             "images": [
                 "images/projects/project_2/img1.png",
