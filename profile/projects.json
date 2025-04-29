@@ -21,6 +21,80 @@
             ]
         },
         {
+            "_comment": "This is Project no : 1",
+            "video": "images/projects/project_1/demo.mp4",
+            "title": "FASTInfoBot: AI-Powered Campus Assistant",
+            "bodyText": "- **Problem:** Limited access to real-time, accurate university information.\n- **Solution:** A chatbot built on Botpress, integrating AI-driven conversations and web scraping for real-time and comprehensive information delivery.\n- **Outcome:** Improved access to university information for over 5,000 students and staff.",
+            "links": [
+                {
+                    "text": "Experience FASTInfoBot Live",
+                    "href": "https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/12/13/20/20241213203042-1664PU6B.json"
+                }
+            ],
+            "tags": [
+                "Botpress",
+                "AI",
+                "Web Scraping",
+                "Python"
+            ],
+            "images": [
+                "images/projects/project_1/img1.png",
+                "images/projects/project_1/img2.png",
+                "images/projects/project_1/img3.png",
+                "images/projects/project_1/img4.png"
+            ]
+        },
+
+        {
+            "_comment": "This is Project no : 2",
+            "video": "images/projects/project_2/demo.mp4",
+            "title": "Intelligent Travel Recommendation System",
+            "bodyText": "- **Problem:** Generic travel recommendations fail to meet user preferences.\n- **Solution:** A recommendation engine leveraging content-based, collaborative, and popularity-based filtering to suggest personalized travel plans.\n- **Outcome:** Enhanced trip satisfaction for users, improving planning efficiency by 40%.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/abdullahdarofficial/AI-Travel-Recommender"
+                }
+            ],
+            "tags": [
+                "Python",
+                "Machine Learning",
+                "Collaborative Filtering",
+                "Recommendation Engine"
+            ],
+            "images": [
+                "images/projects/project_2/img1.png",
+                "images/projects/project_2/img2.png",
+                "images/projects/project_2/img3.png",
+                "images/projects/project_2/img4.png"
+            ]
+        },
+        {
+            "_comment": "This is Project no : 4",
+            "video": "images/projects/project_4/demo.mp4",
+            "title": "Real-Time Vehicle Detection with CarCheck Vision",
+            "bodyText": "- **Problem:** Manual monitoring of parking spaces and surveillance areas is inefficient.\n- **Solution:** An AI-powered solution using YOLOv4 for real-time vehicle detection.\n- **Outcome:** Revolutionized parking management systems, enabling scalable smart city applications.",
+            "links": [
+                {
+                    "text": "Explore CarCheck Vision",
+                    "href": "https://www.linkedin.com/posts/abdullahdarofficial_ai-machinelearning-computervision-activity-7277296547619364865-ya4G?utm_source=share&utm_medium=member_desktop"
+                }
+            ],
+            "tags": [
+                "YOLOv4",
+                "Python",
+                "Computer Vision",
+                "AI",
+                "Smart City"
+            ],
+            "images": [
+                "images/projects/project_4/img1.png",
+                "images/projects/project_4/img2.png",
+                "images/projects/project_4/img3.png",
+                "images/projects/project_4/img4.png"
+            ]
+        },
+        {
             "_comment": "This is Project no: 14",
             "video": "images/projects/project_14/demo.mp4",
             "title": "HealthInsight AI",
@@ -191,56 +265,9 @@
                 "images/projects/project_6/img4.png"
             ]
         },
-        {
-            "_comment": "This is Project no : 1",
-            "video": "images/projects/project_1/demo.mp4",
-            "title": "FASTInfoBot: AI-Powered Campus Assistant",
-            "bodyText": "- **Problem:** Limited access to real-time, accurate university information.\n- **Solution:** A chatbot built on Botpress, integrating AI-driven conversations and web scraping for real-time and comprehensive information delivery.\n- **Outcome:** Improved access to university information for over 5,000 students and staff.",
-            "links": [
-                {
-                    "text": "Experience FASTInfoBot Live",
-                    "href": "https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/12/13/20/20241213203042-1664PU6B.json"
-                }
-            ],
-            "tags": [
-                "Botpress",
-                "AI",
-                "Web Scraping",
-                "Python"
-            ],
-            "images": [
-                "images/projects/project_1/img1.png",
-                "images/projects/project_1/img2.png",
-                "images/projects/project_1/img3.png",
-                "images/projects/project_1/img4.png"
-            ]
-        },
 
 
-        {
-            "_comment": "This is Project no : 2",
-            "video": "images/projects/project_2/demo.mp4",
-            "title": "Intelligent Travel Recommendation System",
-            "bodyText": "- **Problem:** Generic travel recommendations fail to meet user preferences.\n- **Solution:** A recommendation engine leveraging content-based, collaborative, and popularity-based filtering to suggest personalized travel plans.\n- **Outcome:** Enhanced trip satisfaction for users, improving planning efficiency by 40%.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/abdullahdarofficial/AI-Travel-Recommender"
-                }
-            ],
-            "tags": [
-                "Python",
-                "Machine Learning",
-                "Collaborative Filtering",
-                "Recommendation Engine"
-            ],
-            "images": [
-                "images/projects/project_2/img1.png",
-                "images/projects/project_2/img2.png",
-                "images/projects/project_2/img3.png",
-                "images/projects/project_2/img4.png"
-            ]
-        },
+
         {
             "_comment": "This is Project no : 3",
             "video": "images/projects/project_3/demo.mp4",
@@ -266,31 +293,7 @@
                 "images/projects/project_3/img4.png"
             ]
         },
-        {
-            "_comment": "This is Project no : 4",
-            "video": "images/projects/project_4/demo.mp4",
-            "title": "Real-Time Vehicle Detection with CarCheck Vision",
-            "bodyText": "- **Problem:** Manual monitoring of parking spaces and surveillance areas is inefficient.\n- **Solution:** An AI-powered solution using YOLOv4 for real-time vehicle detection.\n- **Outcome:** Revolutionized parking management systems, enabling scalable smart city applications.",
-            "links": [
-                {
-                    "text": "Explore CarCheck Vision",
-                    "href": "https://www.linkedin.com/posts/abdullahdarofficial_ai-machinelearning-computervision-activity-7277296547619364865-ya4G?utm_source=share&utm_medium=member_desktop"
-                }
-            ],
-            "tags": [
-                "YOLOv4",
-                "Python",
-                "Computer Vision",
-                "AI",
-                "Smart City"
-            ],
-            "images": [
-                "images/projects/project_4/img1.png",
-                "images/projects/project_4/img2.png",
-                "images/projects/project_4/img3.png",
-                "images/projects/project_4/img4.png"
-            ]
-        },
+
         {
             "_comment": "This is Project no : 5",
             "video": "images/projects/project_5/demo.mp4",
