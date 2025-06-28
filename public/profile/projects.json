@@ -1,6 +1,25 @@
 {
     "projects" : [
         {
+            "_comment": "This is Project no: 16",
+            "video": "images/projects/project_16/demo.mp4",
+            "title": "n8n-Powered CRM Automation for Devantix Labs",
+            "bodyText": "- **Problem:** Managing incoming website inquiries manually often leads to delayed responses, poor lead tracking, and missed business opportunities.\n- **Solution:** Developed a fully automated CRM pipeline using n8n that integrates Webhooks, Slack, Notion, and Email. Upon form submission, the system instantly sends a confirmation email to the user, alerts the internal team via Slack, and logs the lead in Notion for status tracking.\n- **Outcome:** Enabled real-time lead capture and follow-up, improved operational efficiency, and ensured consistent communication with potential clients. This solution reduced response time, centralized lead management, and created a scalable workflow for future campaigns.",
+            "links": [
+                {
+                    "text": "Explore n8n Workflow",
+                    "href": "https://www.devantixlabs.com"
+                }
+            ],
+            "tags": ["n8n", "Automation", "Slack API", "Notion API", "Webhook", "Email", "CRM", "No-Code"],
+            "images": [
+                "images/projects/project_16/img1.png",
+                "images/projects/project_16/img2.png",
+                "images/projects/project_16/img3.png",
+                "images/projects/project_16/img4.png"
+            ]
+        },
+        {
             "_comment": "This is Project no: 15",
             "video": "images/projects/project_15/demo.mp4",
             "title": "AQUSys Intelligence",
