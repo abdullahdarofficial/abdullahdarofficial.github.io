@@ -28,9 +28,6 @@
         {
             "title": "Projects",
             "href": "/projects"
-        },
-        {
-            "_comment": "This is a comment explaining the name field \"title\": \"Resume\",\n            \"href\": \"https://drive.google.com/file/d/1vdKYMqIJyoUdB--BEZhElTYiVj6GmT3L/view?usp=sharing\",\n            \"type\": \"link\"",
         }
     ]
 
