@@ -4,7 +4,7 @@
             "_comment": "This is Project no: 16",
             "video": "images/projects/project_16/demo.mp4",
             "title": "n8n-Powered CRM Automation for Devantix Labs",
-            "bodyText": "- **Problem:** Managing incoming website inquiries manually often leads to delayed responses, poor lead tracking, and missed business opportunities.\n- **Solution:** Developed a fully automated CRM pipeline using n8n that integrates Webhooks, Slack, Notion, and Email. Upon form submission, the system instantly sends a confirmation email to the user, alerts the internal team via Slack, and logs the lead in Notion for status tracking.\n- **Outcome:** Enabled real-time lead capture and follow-up, improved operational efficiency, and ensured consistent communication with potential clients. This solution reduced response time, centralized lead management, and created a scalable workflow for future campaigns.",
+            "bodyText": "- **Problem:** Manual handling of website inquiries slows down response times, weakens lead tracking, and risks losing potential business.\n- **Solution:** Engineered an end-to-end CRM automation system using n8n — integrating Webhooks, Slack, Notion, and Email. On form submission, it triggers instant acknowledgment to the user, internal Slack alerts, and structured lead logging in Notion.\n- **Outcome:** Delivered a real-time, fully automated pipeline that cut response delays, unified team communication, and scaled lead management with precision and speed.",
             "links": [
                 {
                     "text": "Explore n8n Workflow",
