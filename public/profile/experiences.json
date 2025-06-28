@@ -1,6 +1,17 @@
 {
     "experiences": [
         {
+            "title": "Founder & AI Engineer",
+            "subtitle": "Devantix Labs",
+            "workType": "Self-Employed",
+            "workDescription": [
+                "Lead end-to-end development of AI-powered automation systems, voice bots, and intelligent agents using GPT-4, LangChain, n8n, Retell, Vapi, and Synthflow for clients across e-commerce, SaaS, healthcare, and EdTech sectors.",
+                "Built production-ready recommender systems and analytics dashboards deployed on AWS, GCP, and Railway, resulting in measurable client gains in engagement, conversions, and operational efficiency.",
+                "Established Devantix Labs as a premium AI solutions provider by managing engineering, delivery, and technical strategy with a focus on scalable, real-time, and modular architectures."
+            ],
+            "dateText": "01/2025 – Present"
+        },
+        {
             "title": "AI/Ml Engineer",
             "subtitle": "SimpleRishta",
             "workType": "Employment",
