@@ -11,6 +11,10 @@
         {
             "network" : "email",
             "href": "mailto:abdullah.dar.official@outlook.com"
+        },
+        {
+            "network": "website",
+            "href": "https://www.devantixlabs.com"
         }
     ]
 }
