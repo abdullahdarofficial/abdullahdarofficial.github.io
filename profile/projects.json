@@ -1,6 +1,32 @@
 {
     "projects" : [
         {
+            "_comment": "This is Project no: 17",
+            "video": "images/projects/project_17/demo.mp4",
+            "title": "Presents Chat – AI-Powered Gift Recommendation",
+            "bodyText": "- **Problem:** Users face difficulty finding meaningful gifts, especially across different cultures, preferences, and occasions.\n- **Solution:** Built Presents Chat, a conversational AI platform that understands user intent and emotions to suggest personalized gifts. Leveraged OpenAI and LangChain for natural language understanding, FastAPI for the backend, and Scikit-learn with cosine similarity for gift matching. Vendor data was scraped and enriched using Apify.\n- **Outcome:** Delivered a responsive, intelligent shopping assistant that matches global gifts to user needs with high relevance, monetized through vendor commissions.",
+            "links": [
+                {
+                    "text": "Visit Presents Chat",
+                    "href": "https://www.presents.chat"
+                },
+                {
+                    "text": "About Devantix Labs",
+                    "href": "https://www.devantixlabs.com"
+                }
+            ],
+            "tags": [
+                "FastAPI", "OpenAI", "LangChain", "MongoDB", "PostgreSQL",
+                "Apify", "Scikit-learn", "LLM", "CORS", "NLP", "ThreadPoolExecutor", "Python"
+            ],
+            "images": [
+                "images/projects/project_17/img1.png",
+                "images/projects/project_17/img2.png",
+                "images/projects/project_17/img3.png",
+                "images/projects/project_17/img4.png"
+            ]
+        },
+        {
             "_comment": "This is Project no: 16",
             "video": "images/projects/project_16/demo.mp4",
             "title": "CRM Automation – Devantix",
